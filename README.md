@@ -10,7 +10,6 @@
   <li><a href="#database-setup">Database Setup</a></li>
   <li><a href="#configuration">Configuration</a></li> <!-- Added Configuration section -->
   <li><a href="#usage">Usage</a></li>
-  <li><a href="#screenshots">Screenshots</a></li>
   <li><a href="#contributing">Contributing</a></li>
   <li><a href="#license">License</a></li>
 </ul>
