@@ -46,8 +46,7 @@
   <li>Clone the repository:</li>
   <pre><code>https://github.com/MdAshikur-Rahman-Ashik/ASP.Net_MvcApi_WebApiMasterDetailWithAuthentication</code></pre>
   
-  <li>Navigate to the project directory and enable migrations:</li>
-  <pre><code>Enable-Migrations</code></pre>
+
 
   <li>Add the initial migration:</li>
   <pre><code>Add-Migration Init</code></pre>
