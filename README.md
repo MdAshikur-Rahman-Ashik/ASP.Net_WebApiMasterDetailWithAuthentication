@@ -1,4 +1,4 @@
-<h1>🔑 ASP.NET MVC & Web API Master-Detail with Authentication</h1>
+<h1>🔑 ASP.NET  Web API Master-Detail with Authentication</h1>
 
 <p>This project is a combination of ASP.NET MVC and Web API, implementing master-detail relationships with authentication. It includes features for managing master-detail data and secure user authentication.</p>
 
