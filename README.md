@@ -25,9 +25,8 @@
 
 <h2 id="technologies">🛠️ Technologies</h2>
 <ul>
-  <li><strong>Frontend:</strong> ASP.NET MVC, Razor Views, Bootstrap</li>
+  <li><strong>Frontend:</strong> Razor Views, Bootstrap</li>
   <li><strong>Backend:</strong> ASP.NET Web API</li>
-  <li><strong>Database:</strong> SQL Server (Code First)</li>
   <li><strong>ORM:</strong> Entity Framework (Code First)</li>
 </ul>
 
