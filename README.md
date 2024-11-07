@@ -8,11 +8,15 @@
   <li><a href="#technologies">Technologies</a></li>
   <li><a href="#getting-started">Getting Started</a></li>
   <li><a href="#database-setup">Database Setup</a></li>
+  <li><a href="#dependencies">Dependencies</a></li> <!-- Added Dependencies section -->
   <li><a href="#configuration">Configuration</a></li> <!-- Added Configuration section -->
   <li><a href="#usage">Usage</a></li>
   <li><a href="#contributing">Contributing</a></li>
   <li><a href="#license">License</a></li>
 </ul>
+
+
+
 
 <h2 id="features">🚀 Features</h2>
 <ul>
@@ -39,6 +43,21 @@
   <li><a href="https://dotnet.microsoft.com/download" target="_blank">.NET Framework 4.7.2 or later</a></li>
   <li><a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">SQL Server</a> (or SQL Server Express)</li>
 </ul>
+
+<h2 id="dependencies">📦 Dependencies</h2>
+<p>This project requires the following NuGet packages:</p>
+<p>These packages provide authentication, entity management, and API documentation functionality necessary for this project. Ensure all are installed by running the following commands in the NuGet Package Manager Console:</p>
+<pre><code>
+Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 8.0.10
+Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore -Version 8.0.10
+Install-Package Microsoft.EntityFrameworkCore -Version 8.0.10
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 8.0.10
+Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.10
+Install-Package Microsoft.IdentityModel.Tokens -Version 8.1.2
+Install-Package Swashbuckle.AspNetCore -Version 6.9.0
+Install-Package Swashbuckle.AspNetCore.Filters -Version 8.0.2
+Install-Package System.IdentityModel.Tokens.Jwt -Version 8.1.2
+</code></pre>
 
 <h2 id="database-setup">📂 Database Setup</h2>
 <ol>
