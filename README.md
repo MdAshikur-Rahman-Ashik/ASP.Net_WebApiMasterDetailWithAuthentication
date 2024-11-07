@@ -46,18 +46,32 @@
 
 <h2 id="dependencies">📦 Dependencies</h2>
 <p>This project requires the following NuGet packages:</p>
-<p>These packages provide authentication, entity management, and API documentation functionality necessary for this project. Ensure all are installed by running the following commands in the NuGet Package Manager Console:</p>
+
+<p>These packages provide functionality for authentication, API integration, JSON handling, and Web API development. Install them in the NuGet Package Manager Console with:</p>
 <pre><code>
-Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 8.0.10
-Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore -Version 8.0.10
-Install-Package Microsoft.EntityFrameworkCore -Version 8.0.10
-Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 8.0.10
-Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.10
-Install-Package Microsoft.IdentityModel.Tokens -Version 8.1.2
-Install-Package Swashbuckle.AspNetCore -Version 6.9.0
-Install-Package Swashbuckle.AspNetCore.Filters -Version 8.0.2
-Install-Package System.IdentityModel.Tokens.Jwt -Version 8.1.2
+Install-Package EntityFramework -Version 6.4.4
+Install-Package Microsoft.AspNet.Cors -Version 5.3.0
+Install-Package Microsoft.AspNet.WebApi -Version 5.3.0
+Install-Package Microsoft.AspNet.WebApi.Client -Version 6.0.0
+Install-Package Microsoft.AspNet.WebApi.Core -Version 5.3.0
+Install-Package Microsoft.AspNet.WebApi.Cors -Version 5.3.0
+Install-Package Microsoft.AspNet.WebApi.WebHost -Version 5.3.0
+Install-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -Version 2.0.1
+Install-Package Microsoft.Owin -Version 4.2.2
+Install-Package Microsoft.Owin.Cors -Version 4.2.2
+Install-Package Microsoft.Owin.Host.SystemWeb -Version 4.2.2
+Install-Package Microsoft.Owin.Security -Version 4.2.2
+Install-Package Microsoft.Owin.Security.OAuth -Version 4.2.2
+Install-Package Newtonsoft.Json -Version 13.0.3
+Install-Package Newtonsoft.Json.Bson -Version 1.0.2
+Install-Package Owin -Version 1.0
+Install-Package System.Buffers -Version 4.5.1
+Install-Package System.Memory -Version 4.5.5
+Install-Package System.Numerics.Vectors -Version 4.5.0
+Install-Package System.Runtime.CompilerServices.Unsafe -Version 4.5.3
+Install-Package System.Threading.Tasks.Extensions -Version 4.5.4
 </code></pre>
+
 
 <h2 id="database-setup">📂 Database Setup</h2>
 <ol>
